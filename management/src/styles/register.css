@@ -1,0 +1,58 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins, san-serif";
+}
+
+
+.register-page{
+    background: linear-gradient(180.5deg, rgb(37, 104, 6) 8.5%, rgb(138, 196, 30) 118.2%);
+ width: 100dvw;
+ height:120dvh; 
+ display: flex;  
+ justify-content: center;
+ align-items: center;
+ padding: 30px 20px;
+}
+.register-form-contain img{
+    width: 150px;
+    height: 150px;
+    place-self: center;
+}
+
+.register-form-contain{
+    background-color: #fff ;
+    padding: 20px 17px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.r_title{
+    color:gray;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+form button{
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 15px;
+    width: fit-content;
+    place-self: end;
+    border: none ;
+    border-radius: 5px;
+}
+
+form{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

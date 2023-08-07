@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laptops",
+  "info": {
+    "singularName": "laptop",
+    "pluralName": "laptops",
+    "displayName": "laptop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "laptop_id": {
+      "type": "string",
+      "unique": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Department": {
+      "type": "text",
+      "required": true
+    },
+    "specs": {
+      "type": "text",
+      "unique": false,
+      "required": false
+    },
+    "First_name": {
+      "type": "string",
+      "required": true
+    },
+    "brand": {
+      "type": "string"
+    },
+    "serial": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "text"
+    },
+    "Last_name": {
+      "type": "string"
+    }
+  }
+}
